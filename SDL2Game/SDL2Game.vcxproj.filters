@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="cc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_texture.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
