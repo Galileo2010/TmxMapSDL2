@@ -1,4 +1,4 @@
 SDL2Game/Debug
 SDL2Game/Release
-bin
+bin/*[!dll||!exe]
 .vs
