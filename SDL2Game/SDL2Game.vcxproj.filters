@@ -1,74 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="src">
+    <Filter Include="source">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="game.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="source\game.cpp">
+      <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="map.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="source\map.cpp">
+      <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="object.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="source\object.cpp">
+      <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="player.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="source\player.cpp">
+      <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="sprite.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="source\sprite.cpp">
+      <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="texture.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="source\texture.cpp">
+      <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="timer.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="source\timer.cpp">
+      <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="camera.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\camera.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="cc.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\cc.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="exceptions.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\exceptions.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="game.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\game.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="logger.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\logger.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="map.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\map.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="object.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\object.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="player.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\player.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="point.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\point.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="sprite.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\sprite.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="sprite_texture.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\sprite_texture.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="texture.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\texture.h">
+      <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="timer.h">
-      <Filter>src</Filter>
+    <ClInclude Include="source\timer.h">
+      <Filter>source</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
